@@ -13,7 +13,7 @@ while (contador < listaDeTeclas.length ){
     console.log(instrumento[1])
     listaDeTeclas[contador].onclick = function (){
 
-        tocaSom(`#som_${instrumento}`);
+        tocaSom(`#som_${instrumento[1]}`);
     }
     
     contador = contador + 1;
